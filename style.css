@@ -1,0 +1,23 @@
+body {
+  font-family: "Merriweather Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  margin: 30px 30px;
+}
+.color-orange {
+  color: orange;
+}
+.explore-button {
+  text-decoration: none;
+  background-color: pink;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.top-section {
+  display: flex;
+}
+.flexible-container {
+  width: 50%;
+}
+.flexible-container img {
+  width: 60%;
+}
