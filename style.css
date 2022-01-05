@@ -29,3 +29,20 @@ body {
   height: 20%;
   width: 20%;
 }
+.three-box {
+  display: flex;
+}
+.box-container {
+  background-color: plum;
+  height: 30%;
+  width: 30%;
+  margin: 2%;
+  border-radius: 15px;
+  padding: 40px 10px;
+}
+#vission {
+  background-color: powderblue;
+}
+#goals {
+  background-color: rgb(65, 225, 204);
+}
