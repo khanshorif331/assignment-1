@@ -12,7 +12,7 @@ body {
   padding: 10px 30px;
   border-radius: 5px;
 }
-.top-section {
+.same-attribute-section {
   display: flex;
   margin-bottom: 150px;
 }
@@ -45,4 +45,7 @@ body {
 }
 #goals {
   background-color: rgb(65, 225, 204);
+}
+.middle-section {
+  margin-bottom: 150px;
 }
