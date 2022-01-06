@@ -1,7 +1,12 @@
 body {
   font-family: "Merriweather Sans", sans-serif;
   font-family: "Poppins", sans-serif;
-  margin: 30px 30px;
+  margin: 50px 100px 0;
+}
+.stay {
+  font-size: 45px;
+  border-left: 5px rgba(255, 0, 0, 0.575) solid;
+  padding-left: 6px;
 }
 .color-orange {
   color: orange;
@@ -15,6 +20,8 @@ body {
 .same-attribute-section {
   display: flex;
   margin-bottom: 150px;
+  align-items: center;
+  justify-content: space-around;
 }
 .flexible-container {
   width: 50%;
@@ -26,28 +33,58 @@ body {
   text-align: center;
 }
 .illustrator {
-  height: 20%;
-  width: 20%;
+  height: 100px;
+  width: 100px;
 }
 .three-box {
   display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 .box-container {
-  background-color: plum;
-  height: 30%;
-  width: 30%;
-  margin: 2%;
-  border-radius: 15px;
-  padding: 40px 10px;
+  height: 250px;
+  margin: 10px;
+  border-radius: 25px;
+  padding: 40px 30px;
+}
+.mission {
+  font-size: 15px;
+  font-weight: 500;
+}
+h3 {
+  font-size: 20px;
+}
+#mission-title {
+  background-color: rgb(231, 231, 231);
 }
 #vission {
   background-color: powderblue;
 }
 #goals {
-  background-color: rgb(65, 225, 204);
+  background-color: #ecc4d1f6;
 }
 .middle-section {
   margin-bottom: 150px;
+}
+.title {
+  font-size: 40px;
+  font-weight: 700;
+}
+.back-ground {
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: top;
+  background-size: 20%;
+  background-position: left;
+}
+.another-back {
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position-x: 15%;
+  background-position-y: 30%;
+  background-size: 10%;
+  background-position: right;
 }
 footer {
   background-color: black;
